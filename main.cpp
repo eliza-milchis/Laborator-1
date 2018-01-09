@@ -2,13 +2,13 @@
 using namespace std;
 int main()
 {
-int nr;
-cout << "Introduceti un numar intreg: ";
-cin >> nr;
-if (nr > 89 && nr < 101)
-    cout << "In interval.";
+int v;
+cout << "Introduceti varsta: ";
+cin >> v;
+if (v > 18)
+    cout << "Major";
 else
-    cout << "In afara intervalului.";
+    cout << "Minor.";
 return 0;
 
 }
