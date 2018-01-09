@@ -2,15 +2,13 @@
 using namespace std;
 int main()
 {
-int a, b;
-cout << "Introduceti valoarea a: ";
-cin >> a;
-cout << "Introduceti valoarea b: ";
-cin >> b;
-if (a < b)
-    cout << "Crescator" << endl;
-else
-    cout << "Descrescator." << endl;
+int V, Q, P;
+cout << "Introduceti cantitatea: ";
+cin >> Q;
+cout << "Introduceti pretul: ";
+cin >> P;
+ V = P * Q;
+cout << "Valoarea este:" << V;
 return 0;
 
 }
