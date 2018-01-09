@@ -2,14 +2,15 @@
 using namespace std;
 int main()
 {
-int v;
-cout << "Introduceti varsta: ";
-cin >> v;
-if (v > 18)
-    cout << "Major";
+int a, b;
+cout << "Introduceti valoarea a: ";
+cin >> a;
+cout << "Introduceti valoarea b: ";
+cin >> b;
+if (a < b)
+    cout << "Crescator" << endl;
 else
-    cout << "Minor.";
+    cout << "Descrescator." << endl;
 return 0;
 
 }
-
